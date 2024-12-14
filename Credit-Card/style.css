@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .card {
+  }
+}
+body {
+  background-color: rgb(46, 44, 44);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  max-width: 75vh;
+  background-color: black;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 11px 9px rgba(0, 0, 0, 0.4);
+  margin: auto;
+}
+
+.card .bg {
+  height: 40vh;
+  width: 75vh;
+}
+.bg .bg-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.card .logo {
+  position: absolute;
+  display: flex;
+  height: 50px;
+  width: 40px;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.card .card-name {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 85px;
+  height: 40px;
+  width: 150px;
+  margin-top: 28px;
+}
+
+.card-name span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.card .chipset {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 65px;
+  margin-top: 25px;
+  margin-right: 45px;
+}
+.chip {
+  height: 100%;
+  width: 100%;
+}
+
+.card-number {
+  position: absolute;
+  margin-top: 100px;
+  height: 40px;
+  margin-left: 40px;
+  text-align: justify;
+}
+.card-number span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: rgb(243, 243, 250);
+  letter-spacing: 0.5px;
+}
+.number {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 130px;
+  width: 60%;
+  height: 30px;
+}
+.number span {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card .user-name {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  height: 30px;
+  width: 150px;
+}
+
+.user-name span {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+}
+
+.card .valid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 35px;
+  margin-right: 60px;
+  height: 60px;
+  width: 105px;
+}
+.valid .val {
+  font-size: 19px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
+}
+.valid .date {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+  font-size: 19px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.5px;
+}
